@@ -1,0 +1,31 @@
+{
+  "name": "ha-libraries",
+  "version": "1.0.0",
+  "description": "Libraries for Harmonizome mobile application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:docker": "docker build -t 146.203.54.165:5000/ha-libraries .",
+    "push:docker": "docker push 146.203.54.165:5000/ha-libraries",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Harmonizome"
+  ],
+  "author": "Michael McDermott",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.2",
+    "eslint-plugin-react": "^3.11.1"
+  },
+  "dependencies": {
+    "axios": "^0.7.0",
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "connect-timeout": "^1.7.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  }
+}
