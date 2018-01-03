@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:docker": "docker build -t 146.203.54.165:5000/ha-libraries .",
-    "push:docker": "docker push 146.203.54.165:5000/ha-libraries",
+    "build:docker": "docker build -t maayanlab/ha-libraries .",
+    "push:docker": "docker push maayanlab/ha-libraries",
     "start": "node server.js"
   },
   "keywords": [
