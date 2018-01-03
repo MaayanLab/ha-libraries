@@ -1,4 +1,141 @@
 module.exports = {
+  'ARCHS4 Cell-lines': {
+    description: 'Genes from ARCHS4 that are highly expressed in human cell-lines.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'ARCHS4 IDG Coexp': {
+    description: 'Top 300 genes from ARCHS4 that are co-expressed with under-studied drug targets from the Illuminating the Druggable Genome (IDG) project.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'ARCHS4 Kinases Coexp': {
+    description: 'Top 300 genes from ARCHS4 that are co-expressed with kinases.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'ARCHS4 TFs Coexp': {
+    description: 'Top 300 genes from ARCHS4 that are co-expressed with transcription factors.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'ARCHS4 Tissues': {
+    description: 'Genes from ARCHS4 that are highly expressed in human tissues',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'GO Biological Process 2013': {
+    description: 'Legacy version of the GO biological process gene set library.',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+  'GO Biological Process 2015': {
+    description: 'Gene Ontology Biological Processes where the ontology tree was cut at an intermediate level to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+  'GO Biological Process 2017': {
+    description: 'Gene Ontology Biological Processes where the ontology tree was cut at an intermediate level to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },  
+  'GO Biological Process 2017b': {
+    description: 'Gene Ontology Biological Processes where the ontology tree was cut at a level four to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+
+  'GO Cellular Component 2013': {
+    description: 'Legacy version of the GO cellular component gene set library.',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+  'GO Cellular Component 2015': {
+    description: 'Gene Ontology Cellular Components where the ontology tree was cut at an intermediate level to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+  'GO Cellular Component 2017': {
+    description: 'Gene Ontology Cellular Components where the ontology tree was cut at an intermediate level to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+  'GO Cellular Component 2017b': {
+    description: 'Gene Ontology Cellular Components where the ontology tree was cut at a level four to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },  
+  'GO Molecular Function 2013': {
+    description: 'Legacy version of the GO molecular functions gene set library.',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+  'GO Molecular Function 2015': {
+    description: 'Gene Ontology Molecular Functions where the ontology tree was cut at an intermediate level to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+  'GO Molecular Function 2017': {
+    description: 'Gene Ontology Molecular Functions where the ontology tree was cut at an intermediate level to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
+  'GO Molecular Function 2017b': {
+    description: 'Gene Ontology Molecular Functions where the ontology tree was cut at a level four to generate gene sets',
+    idName: 'GO',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
+    homepage: ''
+  },
   'Achilles fitness decrease': {
     description: 'Knockdown genes that decreased cell viability of cancer cell lines from the Achillis project.',
     idName: '',
@@ -94,7 +231,7 @@ module.exports = {
     baseUrl: '',
     homepage: ''
   },
-  CORUM: {
+  'CORUM': {
     description: 'Protein complexes identified by mass spec from the CORUM database.',
     idName: '',
     idRegExp: '',
@@ -102,7 +239,7 @@ module.exports = {
     baseUrl: '',
     homepage: ''
   },
-  dbGaP: {
+  'dbGaP': {
     description: 'The database of Genotypes and Phenotypes (dbGaP) was developed to archive and distribute the data and results from studies that have investigated the interaction of genotype and phenotype in Humans.',
   },
   'Disease Perturbations from GEO down': {
@@ -201,7 +338,7 @@ module.exports = {
     baseUrl: '',
     homepage: ''
   },
-  ESCAPE: {
+  'ESCAPE': {
     description: 'Gene sets collected for the ESCAPE stem cell focused database.',
     idName: 'PubMed ID',
     idRegExp: '',
@@ -217,7 +354,7 @@ module.exports = {
     baseUrl: '',
     homepage: ''
   },
-  GeneSigDB: {
+  'GeneSigDB': {
     idName: 'Signature ID',
     idRegExp: '',
     idRegExpFlag: '',
@@ -234,59 +371,21 @@ module.exports = {
     baseUrl: '',
     homepage: ''
   },
-  'GO Biological Process 2013': {
-    description: 'Legacy version of the GO biological process gene set library.',
-    idName: 'GO',
-    idRegExp: '',
-    idRegExpFlag: '',
-    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
-    homepage: ''
-  },
-  'GO Biological Process 2015': {
-    description: 'Gene Ontology Biological Processes where the ontology tree was cut at an intermediate level to generate gene sets',
-    idName: 'GO',
-    idRegExp: '',
-    idRegExpFlag: '',
-    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
-    homepage: ''
-  },
-  'GO Cellular Component 2013': {
-    description: 'Legacy version of the GO cellular component gene set library.',
-    idName: 'GO',
-    idRegExp: '',
-    idRegExpFlag: '',
-    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
-    homepage: ''
-  },
-  'GO Cellular Component 2015': {
-    description: 'Gene Ontology Cellular Components where the ontology tree was cut at an intermediate level to generate gene sets',
-    idName: 'GO',
-    idRegExp: '',
-    idRegExpFlag: '',
-    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
-    homepage: ''
-  },
-  'GO Molecular Function 2013': {
-    description: 'Legacy version of the GO molecular functions gene set library.',
-    idName: 'GO',
-    idRegExp: '',
-    idRegExpFlag: '',
-    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
-    homepage: ''
-  },
-  'GO Molecular Function 2015': {
-    description: 'Gene Ontology Molecular Functions where the ontology tree was cut at an intermediate level to generate gene sets',
-    idName: 'GO',
-    idRegExp: '',
-    idRegExpFlag: '',
-    baseUrl: 'http://amigo.geneontology.org/amigo/term/GO:',
-    homepage: ''
-  },
   'GTEx Tissue Sample Gene Expression Profiles up': {
     description: 'The Genotype-Tissue Expression (GTEx) project aims to provide to the scientific community a resource with which to study human gene expression and regulation and its relationship to genetic variation. This project will collect and analyze multiple human tissues from donors who are also densely genotyped, to assess genetic variation within their genomes.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''    
   },
   'GTEx Tissue Sample Gene Expression Profiles down': {
     description: 'The Genotype-Tissue Expression (GTEx) project aims to provide to the scientific community a resource with which to study human gene expression and regulation and its relationship to genetic variation. This project will collect and analyze multiple human tissues from donors who are also densely genotyped, to assess genetic variation within their genomes.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''    
   },
   'HMDB Metabolites': {
     description: 'Metabolites that interact with human genes.',
@@ -296,7 +395,7 @@ module.exports = {
     baseUrl: '',
     homepage: ''
   },
-  HomoloGene: {
+  'HomoloGene': {
     description: 'Gene sets created based on their evolutionary age.',
     idName: '',
     idRegExp: '',
