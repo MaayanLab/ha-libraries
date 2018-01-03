@@ -709,4 +709,236 @@ module.exports = {
     baseUrl: 'http://www.wikipathways.org/index.php/Pathway:',
     homepage: 'http://www.wikipathways.org'
   },
+  'Aging_Perturbations_from_GEO_down': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare young vs. old tissues in mammals.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Aging_Perturbations_from_GEO_up': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare young vs. old tissues in mammals.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'BioPlex_2017': {
+    description: 'Massive mass-spectrometry proteomics experiments to map protein-protein interactions.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'DrugMatrix': {
+    description: 'Gene expression signatures from multiple tissues of drug treated rats profiled via microarrays.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'ENCODE_and_ChEA_Consensus_TFs_from_ChIP-X': {
+    description: 'Combining the ENACODE and ChEA databases where the gene sets are often the intersection of target genes from multiple ChIP-seq studies.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'HumanCyc_2015': {
+    description: 'Metabolic pathways from the HumanCyc database',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'HumanCyc_2016': {
+    description: 'Metabolic pathways from the HumanCyc database',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'hu.MAP': {
+    description: 'Protein-protein interactions integrated from multiple resources for the hu.MAP database by the Marcotte Lab.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Jensen_COMPARTMENTS': {
+    description: 'Associations of genes with cellular compartments based on text mining by Lars Jensen Lab.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Jensen_DISEASES': {
+    description: 'Associations of genes with diseases based on text mining by Lars Jensen Lab.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Jensen_TISSUES': {
+    description: 'Associations of genes with cells and tissues based on text mining by Lars Jensen Lab.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Kinase_Perturbations_from_GEO_down': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare cells before and after genetic manipulation of a protein kinase.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Kinase_Perturbations_from_GEO_up': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare cells before and after genetic manipulation of a protein kinase.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'LINCS_L1000_Kinase_Perturbations_down': {
+    description: 'Gene expression signatures from the L1000 data before and after knocking down protein kinases with shRNAs cancer cells',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'LINCS_L1000_Kinase_Perturbations_up': {
+    description: 'Gene expression signatures from the L1000 data before and after knocking down protein kinases with shRNAs cancer cells',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'LINCS_L1000_Ligand_Perturbations_down': {
+    description: 'Gene expression signatures from the L1000 data before and after treatment of cancer cells with endogenous ligands.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'LINCS_L1000_Ligand_Perturbations_up': {
+    description: 'Gene expression signatures from the L1000 data before and after treatment of cancer cells with endogenous ligands.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Ligand_Perturbations_from_GEO_down': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare cells before and after endogenous ligand treatment.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Ligand_Perturbations_from_GEO_up': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare cells before and after endogenous ligand treatment.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'MCF7_Perturbations_from_GEO_down': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare MCF7 cells before and after drug or gene perturbations.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'MCF7_Perturbations_from_GEO_up': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare MCF7 cells before and after drug or gene perturbations.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'MGI_Mammalian_Phenotype_2017': {
+    description: 'Association between gene knockouts and mammalian phenotypes based on mouse experiments.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Microbe_Perturbations_from_GEO_down': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare cells before and after infection with a microbe.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'Microbe_Perturbations_from_GEO_up': {
+    description: 'Manually curated signatures from GEO studies that applied microarrays to compare cells before and after infection with a microbe.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'miRTarBase_2017': {
+    description: 'microRNA-mRNA interactions from the miRTarBase database.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'RNA-Seq_Disease_Gene_and_Drug_Signatures_from_GEO': {
+    description: 'Manually curated GEO signatures from studies that applied RNA-seq to compare disease vs. normal tissues, as well as gene or drug perturbations applied to mammalian cells.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'SysMyo_Muscle_Gene_Sets': {
+    description: 'Collections of muscle related gene sets from sys-myo.com provided by Bill Duddy',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'TargetScan_microRNA_2017': {
+    description: 'Computationally predicted microRNA-mRNA interactions from the TargetScan database.',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  },
+  'ChEA_2016': {
+    description: 'Collections of target genes for transcription factors from individual publications that employed ChIP-seq profiling in mammalian cells',
+    idName: '',
+    idRegExp: '',
+    idRegExpFlag: '',
+    baseUrl: '',
+    homepage: ''
+  }  
 };
